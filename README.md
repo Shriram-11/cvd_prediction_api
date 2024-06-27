@@ -40,11 +40,15 @@ The dataset (`heart.csv`) contains the following columns:
    ```
 
 2. **Create and activate a virtual environment**:
-
+   If virtual environment pacakage is not installed
+   ```bash
+   pip install virtualenv
+   ```
+   
    On **Windows**:
 
    ```bash
-   python -m venv .venv
+   virtualenv .venv
    .venv\Scripts\activate
    ```
 
@@ -54,8 +58,7 @@ The dataset (`heart.csv`) contains the following columns:
    python -m venv .venv
    source .venv/bin/activate
    ```
-
-3. **Install the required packages** from `requirements.txt`:
+4. **Install the required packages** from `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt
